@@ -12,14 +12,14 @@ export default function Header({cart, removeFromCart, decreaseQuantity, increase
                 <div className="row justify-content-center justify-content-md-between">
                     <div className="col-8 col-md-3">
                         <a href="index.html">
-                            <img className="img-fluid" src="/img/logo.svg" alt="imagen logo" />
+                            <img className="img-fluid" src="./img/logo.svg" alt="imagen logo" />
                         </a>
                     </div>
                     <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
                         <div 
                             className="cart"
                         >
-                            <img className="img-fluid" src="/img/cart.png" alt="imagen cart" />
+                            <img className="img-fluid" src="./img/cart.png" alt="imagen cart" />
 
                             <div id="cart" className="bg-white p-3">
                                 {isEmpty ? (
@@ -42,7 +42,7 @@ export default function Header({cart, removeFromCart, decreaseQuantity, increase
                                                     <td>
                                                         <img 
                                                             className="img-fluid" 
-                                                            src={`/img/${guitar.image}.jpg`}
+                                                            src={`./img/${guitar.image}.jpg`}
                                                             alt="guitar picture" 
                                                         />
                                                     </td>
